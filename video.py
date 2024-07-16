@@ -11,7 +11,7 @@ if not os.path.exists(userDirectory):
     os.makedirs(userDirectory)
 
 count = 0
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('.alfa/haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
 
 while True:
